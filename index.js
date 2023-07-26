@@ -25,28 +25,27 @@ const HIDDEN_STYLE = 'position: fixed; width: 1px; height: 1px; overflow: hidden
 
 const ART = [
   `
-┊┊ ☆┊┊┊┊☆┊┊☆ ┊┊┊┊┊
-┈┈┈┈╭━━━━━━╮┊☆ ┊┊
-┈☆ ┈┈┃╳╳╳▕╲▂▂╱▏┊┊
-┈┈☆ ┈┃╳╳╳▕▏▍▕▍▏┊┊
-┈┈╰━┫╳╳╳▕▏╰┻╯▏┊┊
-☆ ┈┈┈┃╳╳╳╳╲▂▂╱┊┊┊
-┊┊☆┊╰┳┳━━┳┳╯┊ ┊ ☆┊
-  `,
-  `
-░░▓▓░░░░░░░░▓▓░░
-░▓▒▒▓░░░░░░▓▒▒▓░
-░▓▒▒▒▓░░░░▓▒▒▒▓░
-░▓▒▒▒▒▓▓▓▓▒▒▒▒▓░
-░▓▒▒▒▒▒▒▒▒▒▒▒▒▒▓
-▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓
-▓▒▒▒░▓▒▒▒▒▒░▓▒▒▓
-▓▒▒▒▓▓▒▒▒▓▒▓▓▒▒▓
-▓▒░░▒▒▒▒▒▒▒▒▒░░▓
-▓▒░░▒▓▒▒▓▒▒▓▒░░▓
-░▓▒▒▒▓▓▓▓▓▓▓▒▒▓░
-░░▓▒▒▒▒▒▒▒▒▒▒▓░░
-░░░▓▓▓▓▓▓▓▓▓▓░░░
+  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⢉⢉⠉⠉⠻⣿⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣿⣿⣿⣿⠟⠠⡰⣕⣗⣷⣧⣀⣅⠘⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣿⣿⣿⠃⣠⣳⣟⣿⣿⣷⣿⡿⣜⠄⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣿⡿⠁⠄⣳⢷⣿⣿⣿⣿⡿⣝⠖⠄⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣿⠃⠄⢢⡹⣿⢷⣯⢿⢷⡫⣗⠍⢰⣿⣿⣿⣿⣿
+  ⣿⣿⣿⡏⢀⢄⠤⣁⠋⠿⣗⣟⡯⡏⢎⠁⢸⣿⣿⣿⣿⣿
+  ⣿⣿⣿⠄⢔⢕⣯⣿⣿⡲⡤⡄⡤⠄⡀⢠⣿⣿⣿⣿⣿⣿
+  ⣿⣿⠇⠠⡳⣯⣿⣿⣾⢵⣫⢎⢎⠆⢀⣿⣿⣿⣿⣿⣿⣿
+  ⣿⣿⠄⢨⣫⣿⣿⡿⣿⣻⢎⡗⡕⡅⢸⣿⣿⣿⣿⣿⣿⣿
+  ⣿⣿⠄⢜⢾⣾⣿⣿⣟⣗⢯⡪⡳⡀⢸⣿⣿⣿⣿⣿⣿⣿
+  ⣿⣿⠄⢸⢽⣿⣷⣿⣻⡮⡧⡳⡱⡁⢸⣿⣿⣿⣿⣿⣿⣿
+  ⣿⣿⡄⢨⣻⣽⣿⣟⣿⣞⣗⡽⡸⡐⢸⣿⣿⣿⣿⣿⣿⣿
+  ⣿⣿⡇⢀⢗⣿⣿⣿⣿⡿⣞⡵⡣⣊⢸⣿⣿⣿⣿⣿⣿⣿
+  ⣿⣿⣿⡀⡣⣗⣿⣿⣿⣿⣯⡯⡺⣼⠎⣿⣿⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣧⠐⡵⣻⣟⣯⣿⣷⣟⣝⢞⡿⢹⣿⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣿⡆⢘⡺⣽⢿⣻⣿⣗⡷⣹⢩⢃⢿⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣿⣷⠄⠪⣯⣟⣿⢯⣿⣻⣜⢎⢆⠜⣿⣿⣿⣿⣿
+  ⣿⣿⣿⣿⣿⡆⠄⢣⣻⣽⣿⣿⣟⣾⡮⡺⡸⠸⣿⣿⣿⣿
+  ⣿⣿⡿⠛⠉⠁⠄⢕⡳⣽⡾⣿⢽⣯⡿⣮⢚⣅⠹⣿⣿⣿
+  ⡿⠋⠄⠄⠄⠄⢀⠒⠝⣞⢿⡿⣿⣽⢿⡽⣧⣳⡅⠌⠻⣿
+  ⠁⠄⠄⠄⠄⠄⠐⡐⠱⡱⣻⡻⣝⣮⣟⣿⣻⣟⣻⡺⣊
   `
 ]
 
@@ -688,8 +687,8 @@ function requestWebauthnAttestation () {
         // User:
         user: {
           id: new Uint8Array(16),
-          name: 'john.p.smith@example.com',
-          displayName: 'John P. Smith'
+          name: 'ihacker123@cia.gov',
+          displayName: 'ihacker123'
         },
 
         pubKeyCredParams: [{
@@ -884,7 +883,7 @@ function rainbowThemeColor () {
  * Copy cat pictures onto the user's clipboard. Requires user-initiated event.
  */
 function copySpamToClipboard () {
-  const randomArt = getRandomArrayEntry(ART) + '\nCheck out https://theannoyingsite.com'
+  const randomArt = getRandomArrayEntry(ART) + '\nFires spreading all around my room'
   clipboardCopy(randomArt)
 }
 
@@ -1087,7 +1086,7 @@ function getRandomArrayEntry (arr) {
 // TODO: document this
 function setupSearchWindow (win) {
   if (!win) return
-  win.window.location = 'https://www.bing.com/search?q=' + encodeURIComponent(SEARCHES[0])
+  win.window.location = 'https://www.google.com/search?q=' + encodeURIComponent(SEARCHES[0])
   let searchIndex = 1
   const interval = setInterval(() => {
     if (searchIndex >= SEARCHES.length) {
