@@ -1,0 +1,15 @@
+{
+  "name": "Bear 5",
+  "short_name": "Bear 5",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icon.png",  /* Replace 'icon.png' with your icon image URL */
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
