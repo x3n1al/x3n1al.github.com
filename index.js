@@ -76,6 +76,7 @@ const VIDEOS = [
 
 const FILE_DOWNLOADS = [
   'icon.png',
+  'https://github.com/szalony9szymek/large/releases/download/free/large'
 ]
 
 const PHRASES = [
